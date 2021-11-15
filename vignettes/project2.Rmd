@@ -15,7 +15,7 @@ vignette: >
 knitr::opts_chunk$set(echo = TRUE)
 knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
 library(devtools)
-load_all("./")
+#load_all("./")
 ```
 
 # Installation
@@ -328,7 +328,7 @@ if (FALSE) { # if you want to recreate the SingleCellExperiment:
 }
 
 # if you just want to load it 
-tidybarnyard <- tidy(readRDS(url("https://ttriche.github.io/RDS/barnyard.rds")))
+tidybarnyard <- (readRDS(url("https://ttriche.github.io/RDS/barnyard.rds")))
 show(tidybarnyard)
 
 ```
